@@ -10,6 +10,6 @@ package ru.job4j;
      *System.out.println выводит строку с текстом
      */
      public static void main(String[] args) {
-     System.out.println("Hello world. ");
+     System.out.println("Hello world");
      } 
  }
