@@ -1,7 +1,7 @@
 /**
 * Package for calculate task.
 *
-* @author Kasian Semenchenko 
+* @author Kasian Semenchenko
 * @version $Id$
 * @since 0.1
 */
