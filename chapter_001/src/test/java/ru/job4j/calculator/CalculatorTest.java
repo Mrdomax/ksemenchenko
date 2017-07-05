@@ -24,7 +24,7 @@ public class CalculatorTest {
 	public void whenSubstructOneMinOneThenZer() {
         Calculator calc = new Calculator();
         calc.substruct(1D, 1D);
-        double result = calc.getResult1();
+        double result = calc.getResult();
         double expected = 0;
         assertThat(result, is(expected));
     }
@@ -34,7 +34,7 @@ public class CalculatorTest {
 	public void whenDivTwoOnTwoThenOne() {
         Calculator calc = new Calculator();
         calc.div(2D, 2D);
-        double result = calc.getResult2();
+        double result = calc.getResult();
         double expected = 1;
         assertThat(result, is(expected));
     }
@@ -44,7 +44,7 @@ public class CalculatorTest {
 	public void whenMultipleTwoOnTwoThenFor() {
         Calculator calc = new Calculator();
         calc.multiple(2D, 2D);
-        double result = calc.getResult3();
+        double result = calc.getResult();
         double expected = 4;
         assertThat(result, is(expected));
     }

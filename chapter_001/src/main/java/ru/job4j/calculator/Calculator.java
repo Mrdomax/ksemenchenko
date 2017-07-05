@@ -16,24 +16,12 @@ public class Calculator {
     public void add(double first, double second) {
         this.result = first + second;
     }
-    /**
-	*@return параметр result.
-    */
-	public double getResult() {
-        return this.result;
-    }
 	/**
 	*@param first параметр.
     *@param second параметр.
     */
     public void substruct(double first, double second) {
         this.result = first - second;
-    }
-    /**
-	*@return параметр result.
-    */
-	public double getResult1() {
-        return this.result;
     }
 	/**
 	*@param first параметр.
@@ -43,22 +31,16 @@ public class Calculator {
         this.result = first / second;
     }
 	/**
-	*@return параметр result.
-    */
-    public double getResult2() {
-        return this.result;
-    }
-	/**
 	*@param first параметр.
     *@param second параметр.
     */
     public void multiple(double first, double second) {
         this.result = first * second;
     }
-	/**
+    /**
 	*@return параметр result.
     */
-    public double getResult3() {
+	public double getResult() {
         return this.result;
     }
 }
