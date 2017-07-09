@@ -12,7 +12,6 @@ package ru.job4j.max;
 	*@return параметр.
     */
     public static int max(int first, int second) {
-		int maxmin = first > second ? first : second;
-		return maxmin;
+		return first > second ? first : second;;
 	}
 }
